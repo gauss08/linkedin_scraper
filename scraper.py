@@ -199,7 +199,10 @@ class LinkedInScraper:
                     detail = await self._read_detail_panel(page)
                     job.description     = detail["description"]
                     job.num_applicants  = detail["num_applicants"]
-                    job.additional_info = detail["additional_info"]
+                    additional_info = detail["additional_info"].split('\n')
+
+                    for i in range(0,len(additional_info),2):
+                        job.additional_info[additional_info[i]] = additional_info[i+1]
  
                     # LinkedIn navigates away on the first card click; go back to restore the list.
                     if idx == 1:

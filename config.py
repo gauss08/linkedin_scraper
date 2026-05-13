@@ -75,7 +75,7 @@ class JobListing:
     url: str              = ""
     description: str      = ""
     num_applicants: str   = ""
-    additional_info: str  = ""
+    additional_info: dict  = field(default_factory=dict)
  
     def to_dict(self) -> dict:
         return self.__dict__.copy()
