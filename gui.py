@@ -25,18 +25,18 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
 
 PALETTE_DARK_KHAKI_ORANGE = {
-    "bg":          "#081416",   # midnight teal-black
-    "panel":       "#102225",   # deep teal panel
-    "card":        "#182d30",   # dark teal card surface
-    "card_hover":  "#21393d",   # lifted teal hover state
-    "border":      "#3f5e62",   # muted teal border
-    "accent":      "#e39a63",   # apricot primary
-    "accent2":     "#f2c08f",   # soft apricot highlight
-    "warn":        "#c75f4a",   # coral-clay warning
-    "text":        "#f3eadf",   # warm cream text
-    "muted":       "#94a7a7",   # muted teal-gray text
-    "tag_bg":      "#2f241d",   # dark apricot-teal tag background
-    "tag_text":    "#efa76f",   # apricot tag text
+    "bg":          "#081416",   
+    "panel":       "#102225",   
+    "card":        "#182d30",    
+    "card_hover":  "#21393d",
+    "border":      "#3f5e62",
+    "accent":      "#e39a63",   
+    "accent2":     "#f2c08f",
+    "warn":        "#c75f4a",
+    "text":        "#f3eadf",
+    "muted":       "#94a7a7",
+    "tag_bg":      "#2f241d",
+    "tag_text":    "#efa76f",
 }
 
 PALETTE_SOFT_SLATE_KHAKI_ORANGE = {
